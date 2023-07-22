@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="subBtn">SUBSCRIBE</button>
+    <button class="joinBtn">JOIN</button>
+    <button class="tweetBtn">Tweet</button>
+
+    <style>
+      /* to add space between elements -> add margin */
+
+      /* here we access all buttons */
+      button {
+        height: 36px;
+        width: 105px;
+        cursor: pointer; /* change the cursor to pointer(hand)*/
+        margin-right: 8px;
+      }
+
+      /* below we access btn with class */
+      .subBtn {
+        background-color: rgb(209, 4, 4);
+        color: white;
+        border: none; /* remove the border */
+
+        border-radius: 3px; /*this round our borders*/
+        
+        /* here we say what we want to transition and how long */
+        transition: opacity 0.15s; 
+      }
+      
+      .subBtn:hover {
+        opacity: 0.7;
+      }
+
+      /* when we hover on the btn */
+      .subBtn:active {
+        opacity: 0.5;
+      }
+
+      /* when we click the btn  */
+      .joinBtn {
+        /* border: 1px solid rgb(14, 73, 149); adding a border to the btn, because on top i remove the border */
+        border-color: rgb(39, 114, 168);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px; /*this round our borders*/
+        background-color: rgb(255, 255, 255);
+        color: rgb(39, 114, 168);
+        width: 60px;
+
+        /* here we say what we want to transition and how long */
+        transition: background-color 0.15s,
+          color 0.15s;
+      }
+
+      /* when we hover on the btn */
+      .joinBtn:hover {
+        color: white;
+        background-color: rgb(39, 114, 168);
+      }
+
+      /* when we click the btn  */
+      .joinBtn:active {
+        opacity: 0.7;
+      }
+
+      .tweetBtn {
+        background-color: rgb(70, 116, 243);
+        color: white;
+        border-radius: 20px; /*this round our borders*/
+        border: none; /* remove the border */
+        font-weight: bold;
+        font-size: 15px;
+
+        /* transition for my shadow */
+        transition: box-shadow 0.2s;
+      }
+
+      .tweetBtn:hover {
+        /* parameters -> left-right, up-down, blury, color*/
+        box-shadow: -1.5px 1.5px 7px rgb(70, 116, 243);
+      }
+    </style>
+  </body>
+</html>
