@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button class="stretchBtn">
+    Stretch
+  </button>
+
+  <button class="oneBtn">
+    One
+  </button>
+
+  <button class="shadowBtn">
+    Shadow
+  </button>
+
+  <style>
+
+    .stretchBtn {
+      background-color: rgb(9, 96, 9);
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border: none;
+      cursor: pointer;
+      transition: padding 0.3s;
+    }
+
+    .stretchBtn:hover {
+      padding: 20px 40px 20px 40px;
+    }
+
+    .oneBtn {
+      background-color: rgb(9, 96, 9);
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-left: 40px;
+      margin-right: 40px;
+
+      transition: padding 0.15s,
+      margin 0.15s;
+    }
+    .oneBtn:hover {
+      padding: 10px 50px 10px 50px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .shadowBtn {
+      background-color: rgb(9, 96, 9);
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border: none;
+      cursor: pointer;
+
+      box-shadow: 4px 4px 4px rgb(203, 213, 203);;
+    }
+    .shadowBtn:hover {
+      margin-top: 4px;
+      margin-left: 4px;
+      box-shadow: none;
+    }
+  </style>
+</body>
+</html>
