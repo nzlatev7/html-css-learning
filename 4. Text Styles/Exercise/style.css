@@ -1,0 +1,66 @@
+.tahoma-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  /* text-align: center; */
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.verdana-course {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.course-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+.course-level {
+  color: rgb(117, 115, 115);
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.course-description {
+  
+  margin-top: 20px;
+  width: 280px;
+}
+.getStartedBtn {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(24, 108, 24);
+}
+
+.shopping {
+  text-align: center;
+  color: rgb(76, 73, 73);
+}
+
+/* 5f */
+.stock {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.stock-price {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.usd {
+  font-size: 12px;
+  color: rgb(118, 113, 113);
+}
+.stock-percentage {
+  color: rgb(4, 121, 4);
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.stock-time {
+  color: rgb(118, 113, 113);
+  margin-top: 0px;
+}
+.down-percentage {
+  color: rgb(211, 10, 10);
+}
