@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube.com Clone</title>
+</head>
+<body>
+
+  <style>
+    .thumbnail {
+      margin-top: 20px;
+      margin-left: 20px;   
+      width: 200px;
+    }
+    .search-bar {
+      font-size: 20px;
+      margin-left: 20px;
+      color: black;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+
+    .rouded-corners {
+      width: 200px;
+      border-radius: 10px;
+    }
+    .cover-image {
+      width: 100px;
+      height: 100px;
+
+      /* this cover the 100 x 100 area */
+      object-fit: cover; 
+      object-position: right;
+    }
+    .circle-image {
+      width: 200px;
+      height: 200px;
+
+      object-fit: cover;
+      object-position: right;
+      border-radius: 100px;
+    }
+
+    .google-search-bar{
+      margin-top: 10px;
+      margin-bottom: 20px;
+
+      width: 250px;
+      height: 20px;
+      border-radius: 20px;
+      border: none;
+      box-shadow: 2px 2px 10px #c3c2c2;
+      box-shadow: -2px -2px 10px #c9c8c8;      
+      padding-left: 10px;
+    }
+
+  </style>
+  
+  <img class="thumbnail" src="thumbnails/georgiShishkov.avif" alt="">
+  <input class="search-bar" type="text" placeholder="Search">
+
+  <!-- exercises -->
+  <img class="rouded-corners" src="thumbnails/georgiShishkov.avif" alt="">
+  <img class="cover-image" src="thumbnails/georgiShishkov.avif" alt="">
+  <img class="circle-image" src="thumbnails/georgiShishkov.avif" alt="">
+
+  <input class="google-search-bar" type="text" 
+  placeholder="Search Google or type a URL">
+
+
+  <!-- css display prop -->
+  <!-- display inline-block -->
+  <!-- 1. block element -> takes up the entire line -->
+  <!-- 2. inline-block ele -> as much space as it needs to-->
+  <!-- 3. inline ele -> appears within a line of text -->
+</body>
+</html>
