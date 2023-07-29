@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <style>
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .menu-flexBox {
+      width: 200px;    
+      padding: 8px 10px;
+
+      border: 1px;
+      border-radius: 5px;
+      border-style: solid;
+      border-color: rgb(182, 182, 181);
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    .home-section-grid,
+    .notifications-section-grid,
+    .messages-section-grid {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .number {
+      font-size: 14px;
+      border-radius: 10px;
+      padding: 3px 10px;
+      background-color: rgb(47, 122, 228);
+    }
+
+    .home,
+    .notifications {
+      margin-bottom: 10px;
+    }
+  </style>
+
+  <div class="menu-flexBox">
+    <div class="home-section-grid">
+      <div>
+        <p class="home">Home</p>
+      </div>
+      <div>
+        <p class="number">14</p>
+      </div>
+    </div>
+    <div class="notifications-section-grid">
+      <div>
+        <p class="notifications">Notifications</p>
+      </div>
+      <div>
+        <p class="number">3</p>
+      </div>
+    </div>
+    <div class="messages-section-grid">
+      <div>
+        <p>Messages</p>
+      </div>
+      <div>
+        <p class="number">5</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
