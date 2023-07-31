@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <style>
+
+    .bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      align-items: center;
+
+      height: 40px;
+      background-color: rgb(126, 39, 208);
+    }
+
+    .home {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+
+      margin-left: 10px;
+    }
+
+    .search-bar-section{
+      width: 200px;
+      max-width: 400px;
+
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .serach-bar {
+      border: none;
+      border-radius: 10px;
+
+      font-size: 9px;
+      padding: 5px 10px;
+
+      width: 100%;
+    }
+
+    .download-btn {
+      border-color: white;
+      border-style: solid;
+      border-radius: 4px;
+      border-width: 1px;
+
+      padding: 5px 10px;
+      font-size: 10px;
+      color: white;
+
+      background-color: rgb(126, 39, 208);
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  </style>
+
+  <div class="bar">
+    <div class="home-section">
+      <p class="home">Home</p>
+    </div>
+    <div class="search-bar-section">
+      <input class="serach-bar" type="text" placeholder="Search">
+    </div>
+    <div class="download">
+      <button class="download-btn">Download</button>
+    </div>
+  </div>
+</body>
+</html>
