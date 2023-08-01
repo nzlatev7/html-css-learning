@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <style>
+
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sidebar {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+
+      display: flex;
+
+      width: 220px;
+      background-color: blueviolet;
+    }
+
+    .picture-section {
+      display: flex;
+      flex-direction: column;
+
+      padding-left: 12px;
+      width: 65px;
+      background-color: rgb(44, 42, 42);
+    }
+
+    .cat-picture {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      margin-top: 7px;
+    }
+
+    .content-section {
+      flex: 1;
+      background-color: rgb(68, 64, 64);
+
+      padding-left: 15px;
+    }
+
+    .info-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding-top: 20px;
+    }
+    
+    .info-text {
+      font-size: 14px;
+      color: white;
+    }
+
+    .plus-text {
+      margin-right: 15px;
+      font-size: 20px;
+      color: rgb(191, 191, 191);
+    }
+
+    .channel-title {
+      color: rgb(149, 149, 149);
+      margin-top: 10px;
+    }
+  </style>
+
+  <div class="sidebar">
+    <div class="picture-section">
+      <img class="cat-picture" src="Images/cat.jpg" alt="">
+      <img class="cat-picture" src="Images/cat.jpg" alt="">
+      <img class="cat-picture" src="Images/cat.jpg" alt="">
+    </div>
+    <div class="content-section">
+      <div class="info-bar">
+        <p class="info-text">INFO</p>
+        <p class="plus-text">+</p>
+      </div>
+      <p class="channel-title"># new-videos</p>
+      <p class="channel-title"># updates</p>
+      <p class="channel-title"># faq</p>
+    </div>
+  </div>
+
+</body>
+</html>

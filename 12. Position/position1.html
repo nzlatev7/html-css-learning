@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <style>
+    /* position: static -> default positon */
+    /* position: fixed */
+
+    /* when we resize the page if we not want to resize the bar
+    we use width and height instead of bottom: 0 and right: 0 */
+
+    body {
+      height: 3000px;
+    }
+
+    .element1 {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: grey;
+    }
+
+    .sidebar {
+      position: fixed;
+
+      right: 0px;
+      top: 0px;
+      bottom: 0px;
+
+      background-color: green;
+      width: 100px;
+    }
+  
+    .entire {
+      position: fixed;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      background-color: black;
+    }
+  </style>
+
+  <div class="element1">
+    bottom-right
+  </div>
+
+  <div class="sidebar">
+    right sidebar
+  </div>
+
+  <div class="entire">
+    wow
+  </div>
+</body>
+</html>
