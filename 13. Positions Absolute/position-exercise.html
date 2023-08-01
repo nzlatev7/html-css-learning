@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .container {
+        display: inline-block;
+        position: relative;
+        background-color: rgb(168, 168, 166);
+
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(86, 85, 85);
+      }
+
+      .image {
+        padding-top: 5px;
+        width: 210px;
+      }
+
+      .promotion {
+        position: absolute;
+
+        top: 10px;
+        right: 0px;
+
+        padding: 5px 10px;
+        color: white;
+        background-color: black;
+      }
+
+      .btn-overplay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        top: 140px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(170, 170, 170, 0.5);
+      }
+
+      .add-to-card-btn {
+        padding: 5px 10px;
+        border: solid;
+        border-width: 1px;
+        background-color: white;
+        font-weight: 600;
+      }
+    </style>
+
+    <div class="container">
+      <img class="image" src="Images/ohio.webp" alt="" />
+      <div class="promotion">20% OFF</div>
+      <div class="btn-overplay">
+        <button class="add-to-card-btn">Add to Card</button>
+      </div>
+    </div>
+  </body>
+</html>
