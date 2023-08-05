@@ -1,0 +1,153 @@
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+/* media query */
+/* from zero to 600px */
+@media (max-width: 640px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* from 640px to 850px */
+@media (min-width: 640px) and (max-width: 900px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1500px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-preview {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.tumbnail-block {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-time {
+  position: absolute;
+  
+  bottom: 8px;
+  right: 5px;
+
+  border-radius: 3px;
+  padding: 2px 3px;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(33, 33, 33);
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 12.5% 85%;
+}
+
+.channel-block {
+  vertical-align: top;
+}
+
+
+/* channel-tooltip */
+
+.channel-picture-section {
+  position: relative;
+}
+
+.channel-picture-section:hover .channel-tooltip {
+  opacity: 1;
+}
+
+.channel-tooltip {
+  padding: 12px 10px;
+  position: absolute;
+  bottom: -70px;
+  left: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: -2px 2px 8px rgb(157, 156, 156);
+  border-radius: 6px;
+  /* width: 200px; */
+
+  opacity: 0;
+  transition: opacity 0.1s;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 20;
+}
+
+.channel-tooltip-picture {
+  border-radius: 27px;
+  width: 54px;
+}
+
+.channel-tooltip-info {
+  margin-left: 8px;
+}
+
+.channel-tooltip-info-author {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.channel-tooltip-info-subscribers {
+  font-size: 14px;
+  color: rgb(83, 84, 85);
+}
+
+.channel-picture {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.video-info {
+  margin-left: 12px;
+}
+
+.video-title {
+  width: 100%;
+
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.video-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.video-author, .video-stats {
+  font-size: 13px;
+  color: rgb(83, 84, 85);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
