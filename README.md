@@ -2,7 +2,8 @@
 
 This repository contains all the major skills that we need to build complex websites like our project (YouTube). Our youtube is build via html/css.   
 
-## YouTube Website  
+## YouTube Website
+ - link - https://nzlatev7.github.io/html-css-learning/14.%20Final%20Project-YoutubeWebsite/youtube.html
 ![website](https://github.com/nzlatev7/html-css-learning/assets/106867192/8b65ada1-5868-4ed5-b285-e05ab0573e11)  
 
 * Each special icon in the header and the sidebar has a tooltip when we hover on it.   
